@@ -1,0 +1,46 @@
+.status-panel {
+  flex-shrink: 0;
+}
+
+.sys-row {
+  margin-bottom: 10px;
+}
+
+.sys-name {
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  color: rgba(0,229,255,0.6);
+  margin-bottom: 3px;
+}
+
+.bar-track {
+  height: 4px;
+  background: rgba(0,229,255,0.08);
+  border: 1px solid rgba(0,229,255,0.15);
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+
+.bar-fill {
+  height: 100%;
+  transition: width 1s ease;
+  box-shadow: 0 0 6px currentColor;
+}
+
+.sys-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+}
+
+.sys-pct {
+  color: rgba(0,229,255,0.5);
+}
+
+.sys-status {
+  color: #ffb300;
+  letter-spacing: 0.1em;
+}
+.sys-status.ok {
+  color: #00ff88;
+}

@@ -1,0 +1,34 @@
+.metrics-panel {
+  flex: 1;
+  overflow: hidden;
+}
+
+.metric-row {
+  margin-bottom: 10px;
+}
+
+.metric-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.metric-label {
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  color: rgba(0,229,255,0.55);
+}
+
+.metric-val {
+  font-size: 9px;
+  color: #00e5ff;
+  font-variant-numeric: tabular-nums;
+}
+
+.sparkline {
+  width: 100%;
+  height: 24px;
+  display: block;
+  opacity: 0.75;
+  filter: drop-shadow(0 0 3px rgba(0,229,255,0.5));
+}

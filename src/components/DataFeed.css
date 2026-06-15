@@ -1,0 +1,41 @@
+.data-feed {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.feed-list {
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.feed-item {
+  display: flex;
+  gap: 8px;
+  font-size: 9px;
+  animation: fade-in 0.4s ease both;
+}
+
+.feed-item:first-child {
+  color: #00e5ff;
+}
+
+.feed-ts {
+  color: rgba(0,229,255,0.35);
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.feed-msg {
+  color: rgba(0,229,255,0.6);
+  letter-spacing: 0.05em;
+}
+
+.feed-item:first-child .feed-msg {
+  color: #00e5ff;
+  text-shadow: 0 0 6px rgba(0,229,255,0.4);
+}
